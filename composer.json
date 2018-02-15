@@ -1,0 +1,24 @@
+{
+    "name": "cruxoft/logbook",
+    "description": "Simple wrapper for interaction with Monolog's Registry",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "monolog/monolog": "^1.23"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Steve Adams",
+            "email": "irwtdvoys@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cruxoft\\": "src/"
+        }
+    }
+}
