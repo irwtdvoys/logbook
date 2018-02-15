@@ -15,5 +15,10 @@
             "name": "Steve Adams",
             "email": "irwtdvoys@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cruxoft\\": "src/"
+        }
+    }
 }
