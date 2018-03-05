@@ -1,4 +1,4 @@
-# Logbook
+# Logbook (0.1.1)
 
 ## What is it?
 
