@@ -1,4 +1,4 @@
-# LogBook
+# Logbook (0.1.1)
 
 ## What is it?
 
@@ -16,7 +16,7 @@ $ composer require cruxoft/logbook
 
 ## Usage
 
-A simple but common usage of LogBook would be as follows: 
+A simple but common usage of Logbook would be as follows: 
 
 ```php
 use Cruxoft\Logbook;
@@ -27,8 +27,8 @@ use Monolog\Logger;
 $handler = new StreamHandler("./sample.log", Logger::ERROR);
 
 // Add a log channel with specified handlers, optional processors can also be added
-LogBook::add("my_log_channel", array($handler));
+Logbook::add("my_log_channel", array($handler));
 
 // Raising a log, standard monolog methods can be used eg. error() err(), addError()
-LogBook::get("my_log_channel")->error("This is just an example");
+Logbook::get("my_log_channel")->error("This is just an example");
 ```
