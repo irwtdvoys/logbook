@@ -6,7 +6,7 @@
 	use Monolog\Logger;
 	use Monolog\Registry;
 
-	class LogBook
+	class Logbook
 	{
 		/**
 		 * Gets a Monolog Logger object from the global Registry.
