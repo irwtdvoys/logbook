@@ -2,7 +2,8 @@
 
 ## What is it?
 
-Simple wrapper for interaction with [Monolog](https://github.com/Seldaek/monolog)'s Registry system allowing legacy systems to benefit modern logging.
+Simple wrapper for interaction with [Monolog](https://github.com/Seldaek/monolog)'s Registry system allowing legacy systems to 
+benefit from modern logging.
 
 For more complex Monolog setups with multiple channels and handlers a better solutions would be [Monolog Cascade](https://github.com/theorchard/monolog-cascade).
 
